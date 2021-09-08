@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: #6B7280;
+    --secondary-color: white;
+}
+
+html {
+    margin: 0 rem;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: block;
+    background-color: var(--primary-color);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: auto;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+}
+
+.header {
+    text-align: center;
+    font-weight: bolder;
+    padding: 3rem;
+
+    margin-bottom: 0rem;
+    margin: 0rem;
+    background-color: #374151;
+}
+
+#date-of-birth {
+    margin: 2rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+#lucky-number {
+    margin: 2rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+#check-number {
+    margin: 6rem;
+    font-weight: bold;
+    font-size: large;
+    padding: 1rem;
+    background-color: #F59E0B;
+    color: var(--secondary-color);
+}
+
+#output-box {
+    margin: 2rem;
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+}
+
+.footer {
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin: 0rem;
+    background-color: #374151;
+}
+
+.footer-para {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.footer-list {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-list-link {
+    display: inline;
+    padding: 2rem;
+    padding-inline-start: 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: large;
+    color: var(--secondary-color);
+}
