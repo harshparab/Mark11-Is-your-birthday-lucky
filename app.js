@@ -19,7 +19,7 @@ function checkBirthdateIsLucky() {
      if (sum && dob && Number(luckyNumber.value)>0) {
         compareValues(sum, luckyNumber.value)
     } else {
-        outputBox.innerHTML = "Please enter both the fields or enter a positive lucky number"
+        outputBox.innerHTML = "Please enter both the fields and enter a positive lucky number"
     }
 }
 
